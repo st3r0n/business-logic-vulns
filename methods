@@ -1,1 +1,20 @@
+1. exessive trust on client side
+look for anything that we can control
+
+2. failing to handle unconventional input (like usning negative numbers)
+
+3. low level logic like handling of int typeusers  by the server
+
+4 making falwed assumptiona bout user behaviour
+
+5.users won't always supply mandatory input   ---> someimes if we don't provide mandatory inout it can strihght through bypass the security controls
+
+
+6.Users won't always follow the intended sequence
+sometimes one stepis completed and another step is required to be followed but the user can skip that sequence to bypass access controls
+
+
+7.Providing an encryption oracle
+when user can encrypt arbitrary input directly provided to server 
+this can expose the encryption used and we can use this type of logic flaw to extarct useful info to gain admin access
 
